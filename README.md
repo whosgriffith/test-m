@@ -5,14 +5,14 @@
 First install requirements.txt
 ```pip install -r requirements.txt```
 
-##### Sección 1: Python
+#### Sección 1: Python
 Run read_file.py
 ```python read_file.py``` or from root ```python python/read_file.py```
 
 Run decorator.py
 ```python decorator.py``` or from root ```python python/decorator.py```
 
-##### Sección 2: Flask
+#### Sección 2: Flask
 Run app.py
 ```python app.py``` or from root ```python flask_app/app.py```
 
@@ -24,11 +24,13 @@ Header: `Authorization` with token from login
 - **/login**
 Payload: Multipart form with username and password
 
-##### Sección 3: Django
+#### Sección 3: Django
 Make migrations
 ```python manage.py makemigrations```
+
 Migrate
 ```python manage.py migrate```
+
 Run test server
 ```python manage.py runserver```
 
